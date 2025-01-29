@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather Application</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="card" id="cont">
+            <form class="search">
+                <input type="text" id="search" placeholder="Search your City or Country "> 
+                <button>🔍</button>
+                <div class="clear">
+                    <button type="button" id="btn">Clear</button>
+                </div>
+            </form>
+            <div class="cityinfos" id="city">
+            <img id="cloudy" src="angry cloud .png" alt="">
+                <h1 id="text">No City <br> Or <br> Country Found</h1>
+            </div>
+            <div class="fcont" id="fcont">
+
+            </div>
+        </div>
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
